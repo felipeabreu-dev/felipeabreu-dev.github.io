@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-queries.css" media="all">
+</head>
+
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+                <!-- IMAGEM -->
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>
+                    Seja bem-vindo(a) novamente. <br> Faça login para acessar sua conta e poder fazer as configurações no seu
+                    ambiente.
+                </p>
+                <form action="login.php">
+                    <div class="campo">
+                        <label for="iemail"><i class="fa-regular fa-user"></i></label>
+                        <input type="email" name="email" id="iemail" placeholder="Seu E-Mail" required>
+                    </div>
+                    <div class="campo">
+                        <label for="ipassword"><i class="fa-solid fa-lock"></i></label>
+                        <input type="password" name="password" id="ipassword" placeholder="Sua Senha" required>
+                    </div>
+                    <input type="submit" value="Entrar" id="entrar">
+                    <a href="esqueci.html"><button type="button">Esqueci a senha</button></a>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://kit.fontawesome.com/217b7ea49f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
