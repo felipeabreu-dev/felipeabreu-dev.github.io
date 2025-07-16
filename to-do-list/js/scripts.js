@@ -1,4 +1,5 @@
 let btn = document.getElementById('btnAdicionar');
+let btnDelete = document.getElementById('deletar');
 let valorInput = document.getElementById('itarefa');
 let areaLista = document.getElementById('areaLista');
 let contador = 0;
@@ -19,7 +20,7 @@ function addTarefa() {
                 <p>${tarefa}</p>
             </div>
             <div class="item-btn">
-                <button class="delete" onclick="deletar(${contador})"><i class="mdi mdi-delete"></i></button>
+                <button class="delete" onclick="deletar(${contador})"><i id="deletar_${contador}" class="mdi mdi-delete"></i></button>
             </div>
         </div>`;
 
